@@ -145,6 +145,8 @@
     transform: scale(1.5);
 }
 
+/* Down below excercise 10 */
+
 @keyframes circle_spinning {
     0% {
         transform: rotate(360deg);
@@ -185,17 +187,34 @@
     }
 }
 
-/*
-.ex-11-icon {
+.ex-12-button:hover .ex-12-top-white {
+    animation: TopWiggling 2s linear;
 }
 
-.ex-12-button, .ex-13-button {
+@keyframes TopWiggling {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: 68%;
+    }
+    100% {
+        left: 10%
+    }
 }
 
-.ex-12-top-white, .ex-13-top-white {
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: BottomWiggling 2s linear;
 }
 
-.ex-12-bottom-white, .ex-13-bottom-white {
+@keyframes BottomWiggling {
+    0% {
+        left: 50%;
+    }
+    50% {
+        left: 1%;
+    }
+    100% {
+        left: 50%
+    }
 }
-
-*/
